@@ -1,0 +1,16 @@
+Create database yello_cab; use yello_cab;
+create table yc_table(
+book_id int primary key auto_increment,
+cu_name varchar(25),
+mobile varchar(25),
+no_persons int,
+email varchar(30),
+gender varchar(6),
+cab_type varchar(20),
+p_point varchar(100),
+d_point varchar(100),
+p_time varchar(20),
+p_date varchar(20),
+rider_type varchar(6),
+payment_mode varchar(15)
+);
